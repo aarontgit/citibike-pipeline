@@ -1,0 +1,11 @@
+bundle:
+  name: citibike
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    default: true
+    workspace:
+      host: https://dbc-7d7a5d48-86cb.cloud.databricks.com
